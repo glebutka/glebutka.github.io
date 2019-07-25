@@ -1,0 +1,146 @@
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+html, body, main {
+	height: 100%;
+    font-family: 'Ubuntu', sans-serif;
+}
+.first {
+	position: relative;
+	height: 100vh;
+	background: url(img/main_background.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center;
+}
+.first p {
+	color: #fff;
+	line-height: 35px;
+}
+.tourism {
+	width: 100%;
+	text-align: center;
+	padding-top: 80px;
+	font-size: 21px;
+	line-height: 30px;
+}
+.text-container {
+	position: absolute;
+	top: 50%;
+	left: 15%;
+    transform: translateY(-50%);
+}
+.first-line{
+	font-size: 23px;
+	opacity: 0.8;
+}
+.second-line {
+	font-size: 63px;
+
+}
+.third-line {
+	font-size: 14px;
+	margin-top: 15px;
+	opacity: 0.8;
+}
+
+.second {
+	height: 100%;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+	justify-content: center;
+}
+.gallery-container {
+	width: 60%;
+	max-width: 1000px;
+
+}
+.img-container {
+	width: 100%;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-ms-align-items: flex-start;
+	align-items: flex-start;
+}
+img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+.img1 {
+	width: 55%;
+}
+.wrapper {
+	margin-left: 20px;
+}
+.img2 {
+	margin-bottom: 20px;
+}
+.gallery-text {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+	margin-bottom: 25px;
+	justify-content: space-between;
+	width: 90%;
+}
+.gallery-header {
+	font-size: 40px;
+	font-weight: bold;
+	margin-right: 20px; 
+
+}
+.gallery-p {
+	font-size: 20px;
+	line-height: 1;
+}
+.last-container {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+	justify-content: center;
+	height: 320px;
+	background-image: url(img/footerbg.jpg) ;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center;
+	padding: 15px 20px;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
+}
+.last-header {
+	color: #fff;
+	border: 1px solid #fff;
+	padding: 15px 35px;
+	font-size: 20px;
+    margin-bottom: 15px;
+}
+.last-text {
+	color: #fff;
+	font-size: 18px;
+	text-align: center;
+	padding: 0 20%;
+}
